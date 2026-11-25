@@ -8,12 +8,23 @@
   body { font-family: system-ui, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; line-height: 1.6; color: #1d1d1f; background: #fff; }
   h1 { font-size: 1.8rem; margin-bottom: 0.2rem; }
   a { color: #6a1bd1; }
+  .yt { display: flex; align-items: center; gap: 12px; border: 1px solid #ddd; border-radius: 10px; padding: 12px 16px; margin: 24px 0; }
+  .yt svg { flex: none; }
+  nav { margin: 24px 0; font-weight: 600; }
+  nav a { margin-right: 18px; }
   footer { margin-top: 48px; font-size: 0.9rem; color: #666; }
 </style>
 </head>
 <body>
 <h1>Tropika Publisher</h1>
 <p><em>Internal tool of the YouTube channel Tropika VI.</em></p>
+
+<div class="yt">
+  <svg width="40" height="28" viewBox="0 0 40 28" aria-hidden="true"><rect width="40" height="28" rx="7" fill="#FF0000"/><path d="M16 8 L27 14 L16 20 Z" fill="#fff"/></svg>
+  <div><strong>Uses YouTube API Services.</strong> By using Tropika Publisher you agree to the
+  <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the
+  <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</div>
+</div>
 
 <p>Tropika Publisher is a private, internal script used only by the owner of the YouTube channel
 <strong>Tropika VI</strong> (French gaming news). It runs on the owner's own computer and uses the
@@ -29,7 +40,10 @@ and schedule their publication date.</p>
 <p><strong>FR :</strong> Tropika Publisher est un outil interne de la chaîne YouTube Tropika VI. Il sert uniquement
 à son propriétaire pour envoyer et programmer ses propres vidéos via l'API YouTube Data v3.</p>
 
-<p><a href="confidentialite.html">Privacy Policy / Règles de confidentialité</a></p>
+<nav>
+  <a href="confidentialite.html">Privacy Policy</a>
+  <a href="conditions.html">Terms of Use</a>
+</nav>
 
 <footer>Contact: tropika6pro@gmail.com</footer>
 </body>
